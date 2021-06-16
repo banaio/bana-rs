@@ -3,16 +3,23 @@ name = "bana-rs"
 version = "0.1.0"
 authors = ["Mohamed Bana <m@bana.io>"]
 edition = "2018"
+license = "MIT"
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
-[dependencies]
+# [dependencies]
 
 
 [workspace]
+# members = [
+#     "projects/*",
+# ]
+# default-members = [
+#     "projects/*",
+# ]
 members = [
-    "projects/*",
-]
-default-members = [
-    "projects/*",
+  # "projects/fix-rs",
+  "projects/mining-of-massive-datasets",
+  "projects/the-national-lottery-rs",
+  # "projects/x-jws-signature-rs",
 ]

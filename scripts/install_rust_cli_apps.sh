@@ -62,7 +62,7 @@ fi
 
 print_separators
 
-PATH="$HOME/.cargo:${PATH}"
+PATH="${HOME}/.cargo:${PATH}"
 APPS=(
   'gitui'
   'bottom'

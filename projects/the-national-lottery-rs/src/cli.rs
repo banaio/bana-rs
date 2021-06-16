@@ -34,7 +34,7 @@ pub enum Game {
 }
 
 impl std::str::FromStr for Game {
-    type Err = Box<std::error::Error>;
+    type Err = Box<dyn std::error::Error>;
 
     fn from_str(s: &str) -> Result<Game, Self::Err> {
         use Game::*;
